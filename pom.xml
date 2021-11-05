@@ -183,6 +183,11 @@
             <version>${version.light-4j}</version>
         </dependency>
         <dependency>
+            <groupId>net.lightapi</groupId>
+            <artifactId>user-query</artifactId>
+            <version>${version.light-4j}</version>
+        </dependency>
+        <dependency>
             <groupId>com.networknt</groupId>
             <artifactId>kafka-common</artifactId>
             <version>${version.light-4j}</version>
@@ -352,6 +357,7 @@
             </activation>
             <build>
                 <plugins>
+                    <!--
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
@@ -365,7 +371,7 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-shade-plugin</artifactId>
