@@ -183,11 +183,6 @@
             <version>${version.light-4j}</version>
         </dependency>
         <dependency>
-            <groupId>net.lightapi</groupId>
-            <artifactId>user-query</artifactId>
-            <version>${version.light-4j}</version>
-        </dependency>
-        <dependency>
             <groupId>com.networknt</groupId>
             <artifactId>kafka-common</artifactId>
             <version>${version.light-4j}</version>
