@@ -1,34 +1,35 @@
 # This is a configuration file for light-portal service
 # Indicate if we need to send out the confirmation email during user registration
-sendEmail: false
+sendEmail: ${portal.sendEmail:false}
 # The event topic for user-command
-topic: portal-event
+topic: ${portal.topic:portal-event}
 # The host of the server that accepts the email confirmation
-cmdHost: https://localhost:8441
+cmdHost: ${portal.cmdHost:https://localhost:8439}
 # The command path of the server that accepts the email confirmation
-cmdPath: /portal/command?cmd=
+cmdPath: ${portal.cmdPath:/portal/command?cmd=}
 # The host for password reset. This is usually the login view site.
-resetHost: http://localhost:3000
+resetHost: ${portal.resetHost:https://localhost:3000}
 # The host for the portal. This is usually the portal view site.
-portalHost: https://localhost:3000
+portalHost: ${portal.portalHost:https://localhost:3000}
 # Admin user email for the bootstrap
-admin: stevehu@gmail.com
-
+admin: ${portal.admin:stevehu@gmail.com}
+# Portal data folder for contents that are not suitable for Kafka
+dataPath: ${portal.dataPath:/data}
 # User Streams
 # Kafka Streams User application.id which is the consumer group.id
-userApplicationId: user
+userApplicationId: ${portal.userApplicationId:user}
 # Notification Streams
 # Kafka Streams Notification application.id which is the consumer group.id
-notificationApplicationId: notification
+notificationApplicationId: ${portal.notificationApplicationId:notification}
 # Kafka Streams Notification topic
-notificationTopic: portal-notification
+notificationTopic: ${portal.notificationTopic:portal-notification}
 
 # Nonce Streams
 # Kafka Streams Nonce application.id which is the consumer group.id
-nonceApplicationId: nonce
+nonceApplicationId: ${portal.nonceApplicationId:nonce}
 # Kafka Streams Nonce topic
-nonceTopic: portal-nonce
+nonceTopic: ${portal.nonceTopic:portal-nonce}
 
 # Market Streams
 # Kafka Streams Market application.id which is the consumer group.id
-marketApplicationId: market
+marketApplicationId: ${portal.marketApplication:market}
