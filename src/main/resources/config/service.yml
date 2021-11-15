@@ -1,23 +1,19 @@
-
 # Singleton service factory configuration/IoC injection
 singletons:
 - com.networknt.registry.URL:
-    - com.networknt.registry.URLImpl:
-        protocol: https
-        host: localhost
-        port: 8080
-        path: direct
-        parameters:
-          com.networknt.portal.hybrid.query-1.0.0: http://localhost:8080?environment=dev
+  - com.networknt.registry.URLImpl:
+    protocol: https
+    host: localhost
+    port: 8080
+    path: direct
+    parameters:
+      com.networknt.portal.hybrid.query-1.0.0: http://localhost:8080?environment=dev
 - com.networknt.registry.Registry:
-    - com.networknt.registry.support.DirectRegistry
+  - com.networknt.registry.support.DirectRegistry
 - com.networknt.balance.LoadBalance:
-    - com.networknt.balance.RoundRobinLoadBalance
+  - com.networknt.balance.RoundRobinLoadBalance
 - com.networknt.cluster.Cluster:
-    - com.networknt.cluster.LightCluster
-# HandlerProvider implementation
-- com.networknt.handler.HandlerProvider:
-  - com.networknt.rpc.router.RpcRouter
+  - com.networknt.cluster.LightCluster
 # StartupHookProvider implementations, there are one to many and they are called in the same sequence defined.
 - com.networknt.server.StartupHookProvider:
   # registry all service handlers by from annotations
@@ -28,4 +24,6 @@ singletons:
 - com.networknt.server.ShutdownHookProvider:
   # User Query Shutdown Hook
   - net.lightapi.portal.user.query.UserQueryShutdown
-
+  # Schema registry client
+- io.confluent.kafka.schemaregistry.client.SchemaRegistryClient:
+  - com.networknt.kafka.common.LightSchemaRegistryClient
