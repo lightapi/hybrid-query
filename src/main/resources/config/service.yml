@@ -18,12 +18,21 @@ singletons:
 - com.networknt.server.StartupHookProvider:
   # registry all service handlers by from annotations
   - com.networknt.rpc.router.RpcStartupHookProvider
+  # - com.networknt.jaeger.tracing.JaegerStartupHookProvider
   # User Query Startup Hook
   - net.lightapi.portal.user.query.UserQueryStartup
+  # Covid Query Startup Hook
+  # - net.lightapi.portal.covid.query.CovidQueryStartup
+  # Market Query Startup Hook
+  - net.lightapi.portal.market.query.MarketQueryStartup
 # ShutdownHookProvider implementations, there are one to many and they are called in the same sequence defined.
 - com.networknt.server.ShutdownHookProvider:
   # User Query Shutdown Hook
   - net.lightapi.portal.user.query.UserQueryShutdown
-  # Schema registry client
+  # Covid Query Shutdown Hook
+  # - net.lightapi.portal.covid.query.CovidQueryShutdown
+  # Market Query Shutdown Hook
+  - net.lightapi.portal.market.query.MarketQueryShutdown
+# Schema Registry client implementation
 - io.confluent.kafka.schemaregistry.client.SchemaRegistryClient:
   - com.networknt.kafka.common.LightSchemaRegistryClient
