@@ -45,7 +45,7 @@ oauth:
     # server_url: ${client.tokenServerUrl:https://localhost:6882}
     # token service unique id for OAuth 2.0 provider. If server_url is not set above,
     # a service discovery action will be taken to find an instance of token service.
-    serviceId: ${client.tokenServiceId:com.networknt.oauth2-token-1.0.0}
+    serviceId: ${client.tokenServiceId:com.networknt.oauth-token-1.0.0}
     # For users who leverage SaaS OAuth 2.0 provider from lightapi.net or others in the public cloud
     # and has an internal proxy server to access code, token and key services of OAuth 2.0, set up the
     # proxyHost here for the HTTPS traffic. This option is only working with server_url and serviceId
@@ -103,7 +103,7 @@ oauth:
       # If it is not set, a service lookup will be taken with serviceId to find an instance.
       # server_url: ${client.tokenKeyServerUrl:https://localhost:6886}
       # key serviceId for key distribution service, it will be used if above server_url is not configured.
-      serviceId: ${client.tokenKeyServiceId:com.networknt.oauth2-key-1.0.0}
+      serviceId: ${client.tokenKeyServiceId:com.networknt.oauth-key-1.0.0}
       # the path for the key distribution endpoint
       uri: ${client.tokenKeyUri:/oauth2/key}
       # client_id used to access key distribution service. It can be the same client_id with token service or not.
@@ -127,7 +127,7 @@ oauth:
     # the default value 443 is going to be used for the HTTP connection.
     # proxyPort: ${client.signProxyPort:3128}
     # token serviceId. If server_url doesn't exist, the serviceId will be used to lookup the token service.
-    serviceId: ${client.signServiceId:com.networknt.oauth2-token-1.0.0}
+    serviceId: ${client.signServiceId:com.networknt.oauth-token-1.0.0}
     # signing endpoint for the sign request
     uri: ${client.signUri:/oauth2/token}
     # timeout in milliseconds
@@ -144,7 +144,7 @@ oauth:
       # if it is not set, then a service lookup against serviceId will be taken to discover an instance.
       # server_url: ${client.signKeyServerUrl:https://localhost:6886}
       # the unique service id for key distribution service, it will be used to lookup key service if above url doesn't exist.
-      serviceId: ${client.signKeyServiceId:com.networknt.oauth2-key-1.0.0}
+      serviceId: ${client.signKeyServiceId:com.networknt.oauth-key-1.0.0}
       # the path for the key distribution endpoint
       uri: ${client.signKeyUri:/oauth2/key}
       # client_id used to access key distribution service. It can be the same client_id with token service or not.
@@ -167,7 +167,7 @@ oauth:
     # the default value 443 is going to be used for the HTTP connection.
     # proxyPort: ${client.derefProxyPort:3128}
     # token service unique id for OAuth 2.0 provider. Need for service lookup/discovery. It will be used if above server_url is not configured.
-    serviceId: ${client.derefServiceId:com.networknt.oauth2-token-1.0.0}
+    serviceId: ${client.derefServiceId:com.networknt.oauth-token-1.0.0}
     # set to true if the oauth2 provider supports HTTP/2
     enableHttp2: ${client.derefEnableHttp2:true}
     # the path for the key distribution endpoint
