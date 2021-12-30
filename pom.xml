@@ -194,7 +194,11 @@
             <artifactId>kafka-streams</artifactId>
             <version>${version.light-4j}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.networknt</groupId>
+            <artifactId>openapi-parser</artifactId>
+            <version>${version.light-4j}</version>
+        </dependency>
         <dependency>
             <groupId>com.networknt</groupId>
             <artifactId>json-schema-validator</artifactId>
