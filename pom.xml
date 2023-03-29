@@ -95,7 +95,7 @@
         <version.caffeine>2.8.6</version.caffeine>
         <version.json-path>2.6.0</version.json-path>
         <version.hikaricp>5.0.0</version.hikaricp>
-        <version.mysql>8.0.32</version.mysql>
+        <version.postgresql>42.6.0</version.postgresql>
         <versions.maven-version>2.4</versions.maven-version>
         <version.javadoc-packagelist-plugin>1.0.0</version.javadoc-packagelist-plugin>
         <version.maven-javadoc>3.4.1</version.maven-javadoc>
@@ -251,9 +251,9 @@
             <version>${version.hikaricp}</version>
         </dependency>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>${version.mysql}</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${version.postgresql}</version>
         </dependency>
 
         <!-- Test Dependencies -->
