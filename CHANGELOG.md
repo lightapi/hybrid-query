@@ -1,5 +1,79 @@
 # Change Log
 
+## [2.1.26](https://github.com/networknt/hybrid-query/tree/2.1.26) (2023-08-17)
+
+
+**Merged pull requests:**
+
+
+## [2.1.25](https://github.com/networknt/hybrid-query/tree/2.1.25) (2023-08-08)
+
+
+**Merged pull requests:**
+
+
+
+
+## [2.1.24](https://github.com/networknt/hybrid-query/tree/2.1.24) (2023-08-07)
+
+
+**Merged pull requests:**
+
+
+
+
+## [2.1.23](https://github.com/networknt/hybrid-query/tree/2.1.23) (2023-07-11)
+
+
+**Merged pull requests:**
+
+
+
+
+## [2.1.22](https://github.com/networknt/hybrid-query/tree/2.1.22) (2023-06-22)
+
+
+**Merged pull requests:**
+
+
+
+
+## [2.1.21](https://github.com/networknt/hybrid-query/tree/2.1.21) (2023-06-22)
+
+
+**Merged pull requests:**
+
+
+
+
+## [2.1.20](https://github.com/networknt/hybrid-query/tree/2.1.20) (2023-06-17)
+
+
+**Merged pull requests:**
+
+
+## [2.1.19](https://github.com/networknt/hybrid-query/tree/2.1.19) (2023-06-05)
+
+
+**Merged pull requests:**
+
+
+
+
+## [2.1.18](https://github.com/networknt/hybrid-query/tree/2.1.18) (2023-05-06)
+
+
+**Merged pull requests:**
+
+
+
+
+## [2.1.17](https://github.com/networknt/hybrid-query/tree/2.1.17) (2023-05-05)
+
+
+**Merged pull requests:**
+
+
 ## [2.1.16](https://github.com/networknt/hybrid-query/tree/2.1.16) (2023-04-28)
 
 
