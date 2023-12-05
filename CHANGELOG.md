@@ -1,5 +1,20 @@
 # Change Log
 
+## [2.1.30](https://github.com/networknt/hybrid-query/tree/2.1.30) (2023-11-20)
+
+
+**Merged pull requests:**
+
+
+## [2.1.29](https://github.com/networknt/hybrid-query/tree/2.1.29) (2023-11-19)
+
+
+**Merged pull requests:**
+
+
+- Issue37 [\#38](https://github.com/lightapi/hybrid-query/pull/38) ([stevehu](https://github.com/stevehu))
+
+
 ## [2.1.28](https://github.com/networknt/hybrid-query/tree/2.1.28) (2023-10-24)
 
 
