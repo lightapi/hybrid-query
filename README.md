@@ -9,7 +9,7 @@ from root folder
 
 ```text
  mvn clean install -Prelease
- 
+
  java -jar -Dlight-4j-config-dir=config/local target/hybrid-query.jar
 
 ```
