@@ -95,7 +95,7 @@
         <version.caffeine>3.2.0</version.caffeine>
         <version.json-path>2.6.0</version.json-path>
         <version.hikaricp>6.2.1</version.hikaricp>
-        <version.postgres>42.7.2</version.postgres>
+        <version.postgres>42.7.5</version.postgres>
         <versions.maven-version>2.4</versions.maven-version>
         <version.javadoc-packagelist-plugin>1.0.0</version.javadoc-packagelist-plugin>
         <version.maven-javadoc>3.4.1</version.maven-javadoc>
