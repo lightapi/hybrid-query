@@ -94,7 +94,7 @@
         <version.avroConverter>0.2.9</version.avroConverter>
         <version.caffeine>3.2.0</version.caffeine>
         <version.json-path>2.6.0</version.json-path>
-        <version.hikaricp>5.0.0</version.hikaricp>
+        <version.hikaricp>6.2.1</version.hikaricp>
         <version.postgres>42.7.2</version.postgres>
         <versions.maven-version>2.4</versions.maven-version>
         <version.javadoc-packagelist-plugin>1.0.0</version.javadoc-packagelist-plugin>
