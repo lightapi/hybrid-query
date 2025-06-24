@@ -80,7 +80,7 @@
     </pluginRepositories>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.main.class>com.networknt.server.Server</project.main.class>
         <version.light-4j>2.2.3-SNAPSHOT</version.light-4j>
@@ -93,7 +93,6 @@
         <version.junit>4.13.2</version.junit>
         <version.undertow>2.3.18.Final</version.undertow>
         <version.json-schema-validator>1.5.1</version.json-schema-validator>
-        <version.avroConverter>0.2.9</version.avroConverter>
         <version.caffeine>3.2.0</version.caffeine>
         <version.json-path>2.6.0</version.json-path>
         <version.hikaricp>6.2.1</version.hikaricp>
@@ -228,11 +227,6 @@
             <groupId>io.undertow</groupId>
             <artifactId>undertow-core</artifactId>
             <version>${version.undertow}</version>
-        </dependency>
-        <dependency>
-            <groupId>tech.allegro.schema.json2avro</groupId>
-            <artifactId>converter</artifactId>
-            <version>${version.avroConverter}</version>
         </dependency>
         <dependency>
             <groupId>com.braintreepayments.gateway</groupId>
