@@ -194,6 +194,16 @@
         </dependency>
         <dependency>
             <groupId>com.networknt</groupId>
+            <artifactId>kafka-consumer</artifactId>
+            <version>${version.light-4j}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.networknt</groupId>
+            <artifactId>kafka-producer</artifactId>
+            <version>${version.light-4j}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.networknt</groupId>
             <artifactId>kafka-streams</artifactId>
             <version>${version.light-4j}</version>
         </dependency>
