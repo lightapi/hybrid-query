@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.3.1](https://github.com/networknt/hybrid-query/tree/2.3.1) (2025-09-19)
+
+
+**Merged pull requests:**
+
+
+- [pre-commit.ci] pre-commit autoupdate [\#58](https://github.com/lightapi/hybrid-query/pull/58) ([pre-commit-ci](https://github.com/apps/pre-commit-ci))
 ## [2.3.0](https://github.com/networknt/hybrid-query/tree/2.3.0) (2025-06-25)
 
 
